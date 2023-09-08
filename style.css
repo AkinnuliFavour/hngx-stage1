@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar{
+    height: 15vh;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a1a;
+    color: gray;
+    font-weight: 600;
+}
+
+.navbar img{
+    width: 60px;
+    border-radius: 100%;
+}
+
+.container{
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-color: black;
+    color: gray;
+}
